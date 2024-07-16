@@ -1,0 +1,64 @@
+body {
+    background-color: #F9C80E;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid #0f0f0f;
+    padding-right: 2em;
+    margin: 1em;
+    border-radius: 1em;
+    background-image: url(public\background.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.specials {
+    background-color:#F9C80E;
+    border: 1px solid #0f0f0f;
+    padding: 0.3em;
+    margin: 0.5em;
+    border-radius: 1em;
+    flex: 1;
+
+}
+
+.medium {
+    background-color: #EA3546;
+    border: 1px solid #0f0f0f;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 1em;
+    flex: 1;
+}
+
+.large {
+    background-color: #43BCCD;
+    border: 1px solid #0f0f0f;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 1em;
+    flex: 1;
+}
+
+.contact {
+    background-color: #F86624;
+    border: 1px solid #0f0f0f;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 1em;
+}
+
+.center {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+@media(min-width:960px) {
+    .Nathi {
+        background-color: cornflowerblue;
+        display: flex;
+        padding-right: 2em;
+    }
+}
